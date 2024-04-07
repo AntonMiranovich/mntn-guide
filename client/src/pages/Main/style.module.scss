@@ -1,0 +1,86 @@
+.main {
+    display: flex;
+    position: relative;
+    margin-top: 200px;
+
+    .contacts {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 55px 55px;
+
+        .follow {
+            writing-mode: vertical-rl;
+            font: 700 18px 'Montserrat';
+            color: white;
+
+        }
+
+        .imgInst {
+            background-image: url(../../assets/instagram.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 20px;
+            height: 20px;
+        }
+
+        .imgTwit {
+            background-image: url(../../assets/twitter.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .info {
+        margin: auto;
+        width: 950px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .guide {
+            display: flex;
+            align-items: center;
+
+            .hr {
+                width: 50px;
+                height: 2px;
+                background-color: #FBD784;
+                margin-right: 10px;
+            }
+
+            .paragrafGuide {
+                font: 500 18px 'Montserrat';
+                color: #FBD784;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .mainInfo {
+        font: 400 78px 'Montserrat';
+        color: white;
+        text-shadow: 1px 1px white;
+    }
+
+    .scroll {
+        display: flex;
+
+        .scrollDown {
+            font: 600 16px 'Montserrat';
+            color: white;
+            margin-right: 10px;
+        }
+
+        .scrollArrow {
+            background-image: url(../../assets/arrow_downward_24px.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 16px;
+            height: 24px;
+        }
+    }
+}
